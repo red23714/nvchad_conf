@@ -13,12 +13,10 @@ return {
     end,
   },
   {
-    "windwp/nvim-ts-autotag",
-    opts = {},
-    config = function()
-      require("nvim-ts-autotag").setup()
-    end,
-  },
+		"windwp/nvim-ts-autotag",
+		lazy = false,
+		opts = {},
+	},
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
